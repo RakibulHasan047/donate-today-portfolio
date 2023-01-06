@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+/* Hero Image */
+.section-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 80px;
+}
+.section-description{
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.hero-image{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/donation13.jpg');
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+    text-align: center;
+    color: white;
+    padding: 200px 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+.hero-description{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 35px;
+}
+.hero-btn{
+    background-color: #FF5959;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin-top: 35px;
+}
+
+/* Amounts section */
+.donat-today{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.amounts{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+    margin-top: 35px;
+    
+}
+.amount-info{
+    background-color: #FAFAFA;
+    padding: 42px 15px;
+    border-radius: 5px;
+}
+.taka-amount{
+    margin-top: 30px;
+}
+.hr{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    color: #DADADA;
+}
+
+/* donate plan section */
+
+.donate-plan{
+    text-align: center;
+}
+.plans{
+    display: flex;
+    gap: 40px;
+    margin: 40px 150px;
+    text-align: left;
+}
+.food, .shelter, .education{
+    padding: 45px 15px;
+    border-radius: 5px;
+
+}
+.plan-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.food{
+    background-color: #4F9DA61A;
+}
+.shelter{
+    background-color: #FF59591A;
+}
+.education{
+    background-color: #FFF4D6;
+}
+/* blog section */
+.parent-blogs{
+    display: flex;
+    margin: 200px 120px 0 120px;
+    gap: 80px;
+}
+.image-right{
+    border-radius: 10px;
+    width: 456px;
+    height: 477px;
+}
+
+/* mail section */
+.mail-section{
+    text-align: center;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    background-color: #FFF4D6;
+    padding: 40px 0 40px 0;
+    margin: 50px 200px;
+}
+.placeholder{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin: 35px 35px;
+}
+/* footer section */
+.footer{
+    background-color: #0B0D17;
+    margin-top: 70px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.footer-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FF5959;
+    font-weight: 400;
+    font-size: 36px;
+    padding-bottom: 15px;
+}
+.footer-description{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
